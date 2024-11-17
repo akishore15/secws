@@ -1,0 +1,37 @@
+{
+    "browser": {
+        "name": "SWS",
+        "version": "1.00",
+        "settings": {
+            "javascript": false,
+            "plugins": false,
+            "popups": false,
+            "secure_content_only": true,
+            "private_browsing": true,
+            "tracking_protection": true,
+            "cookies": {
+                "accept": "none",
+                "third_party": false
+            },
+            "default_search_engine": "https://brave.com"
+        },
+        "user_agent": "SecureBrowser/1.0"
+    },
+    "security_features": {
+        "sandboxing": true,
+        "content_security_policy": {
+            "default_src": "'self'",
+            "script_src": "'self'",
+            "style_src": "'self' 'unsafe-inline'",
+            "img_src": "'self'",
+            "frame_src": "'none'"
+        },
+        "ssl": {
+            "strict_transport_security": true,
+            "certificate_pinning": true
+        },
+        "extensions": {
+            "enabled": false
+        }
+    }
+}
